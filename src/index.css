@@ -35,7 +35,7 @@ button:focus {
   color: white;
 }
 
-.controls {
+/* .controls {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -71,7 +71,7 @@ input.invalid {
   color: #ef4444;
   border-color: #f73f3f;
   background-color: #fed2d2;
-}
+} */
 
 .actions {
   display: flex;
@@ -79,7 +79,7 @@ input.invalid {
   gap: 1rem;
 }
 
-.button {
+/* .button {
   padding: 1rem 2rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -92,7 +92,7 @@ input.invalid {
 
 .button:hover {
   background-color: #f0920e;
-}
+} */
 
 .text-button {
   color: #f0b322;
@@ -102,3 +102,5 @@ input.invalid {
 .text-button:hover {
   color: #f0920e;
 }
+
+/* commented out styles were moved into styled components */
